@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Weather Dashboard</title>
+  </head>
+  <body class="flex-column min-100-vh">
+  <header class="hero">
+    <h1 class="app-title"><i> Weather Dashboard</h1>
+  </header>
+  <main class="flex-row justify-space-between">
+    <div class="col-12 col-md-4"> 
+    
+  <div class="card">
+    <h3 class="card-header text-uppercase">Search By City</h3>
+    <form id="user-form" class="card-body">
+      
+      <input name="username" id="username" type="text" autofocus="true" class="form-input" />
+      <button type="submit" class="btn">Search</button>
+    </form>
+  </div>
+
+    <main class="flex-row justify-space-between">
+      
+    <main>
+      <div class="currentContainer">
+        <h2>
+          <span id="cityDate"></span>
+          <img src="" />
+        </h2>
+        <p id="temp"></p>
+        <p id="wind"></p>
+        <p id="humidity"></p>
+        <p>
+          UV Index:
+          <span id="uv"></span>
+        </p>
+      </div>
+
+      <div class="futureContainer col d-flex flex-direction-row">
+        <h3 id="dayforecast">5-Day Forecast:</h3>
+
+        <div class="forecastDays col-md-2">
+          <h4>
+            <span id="date2"></span>
+          </h4>
+          <img src="" />
+          <p id="temp2"></p>
+          <p id="wind2"></p>
+          <p id="humidity2"></p>
+        </div>
+
+        <div class="forecastDays col-md-2">
+          <h4>
+            <span id="date3"></span>
+          </h4>
+          <img src="" />
+          <p id="temp3"></p>
+          <p id="wind3"></p>
+          <p id="humidity3"></p>
+        </div>
+
+        <div class="forecastDays col-md-2">
+          <h4>
+            <span id="date4"></span>
+          </h4>
+          <img src="" />
+          <p id="temp4"></p>
+          <p id="wind4"></p>
+          <p id="humidity4"></p>
+        </div>
+
+        <div class="forecastDays col-md-2">
+          <h4>
+            <span id="date5"></span>
+          </h4>
+          <img src="" />
+          <p id="temp5"></p>
+          <p id="wind5"></p>
+          <p id="humidity5"></p>
+        </div>
+
+        <div class="forecastDays col-md-2">
+          <h4>
+            <span id="date6"></span>
+          </h4>
+          <img src="" />
+          <p id="temp6"></p>
+          <p id="wind6"></p>
+          <p id="humidity6"></p>
+      </div>
+    </div>
+  </main>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

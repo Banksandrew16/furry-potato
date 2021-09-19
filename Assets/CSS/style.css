@@ -1,0 +1,89 @@
+
+/* header sytle */
+header {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(2, 154, 255);
+    padding: 1px 0;
+    height: 10%;
+}
+/* end header style */
+
+/* search/history style */
+.searchContainer {
+    width: 25%;
+    float: left;
+    margin-left: 2px;
+}
+.search {
+    width: 100%;
+    border-bottom: 1px solid grey;
+    padding-left: 0%;
+}
+
+#searchHeader {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    padding-left: 0%;
+}
+
+#cityFinder {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    padding-left: 0%;
+}
+#look {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    padding-left: 0%;
+}
+
+#look {
+    background-color: rgb(1, 179, 238);
+    border-radius: 5px;
+    color: white;
+}
+#look:hover {
+    background-color: rgb(36, 255, 244);
+}
+
+.history {
+    margin: 10px 0;
+    width: 100%;
+}
+.history button {
+    width: 100%;
+    margin: 5px 0;
+    background-color: darkgrey;
+    border-radius: 5px;
+}
+.history button:hover {
+    background-color: lightslategray;
+}
+/* end search/history style */
+
+/* main info style */
+main {
+    width: 73%;
+    float: right;
+    margin: 5px;
+}
+
+.currentContainer {
+    border: 1px solid grey;
+    padding-left: 10px;
+}
+.currentContainer h2 {
+    margin-top: 9px;
+    margin-bottom: 15px;
+}
+
+.forecastDays {
+    background-color: darkgrey;
+    margin: 20px 20px;
+    font-size: 15px;
+    border-radius: 3px;
+}
